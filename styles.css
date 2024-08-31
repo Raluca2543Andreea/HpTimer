@@ -1,0 +1,102 @@
+body{
+    margin-left: 90px;
+    background-image: url(image3.jpg);
+    transition: background-image 1.5s ease-in-out;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        background-color: #10141b;
+        font-family: Sofia Pro, Helvetica, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+        color: #fff;
+    
+}
+
+header {
+    position: sticked;
+    top: 0;
+    background-color: rgb(172, 119, 128)
+}
+
+#myH1{
+ 
+    font-size: 130px;
+    font-family:  Hiragino Kaku Gothic Pro;
+    font-style: inherit;
+    font-weight: 400;
+    background-image: linear-gradient(43deg, #ebf5f4 0%, #c5f0e5 46%, #1ca386 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+
+
+}
+#myH1:hover{
+    color:#08857e;
+ }
+
+
+
+#undertitle{
+    color: hsl(175, 35%, 27%);
+    font-size: 15px;
+    font-family:Hiragino Kaku Gothic Pro;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-stretch: semi-condensed;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  
+  
+}
+
+#display{
+    font-size: 8rem;
+    font-family: 'Times New Roman', Times, serif;
+   
+    color: hsl(0, 1%, 90%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Palatino, URW Palladio L, serif, Hiragino Kaku Gothic Pro;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+#startBtn{
+    background-color: hsl(113, 12%, 59%);
+}
+#startBtn:hover{
+    background-color: hsl(160, 19%, 12%);
+}
+#stopBtn{
+    background-color: hsl(147, 22%, 47%);
+}
+#stopBtn:hover{
+    background-color: hsl(161, 17%, 25%);
+}
+#resetBtn{
+    background-color: hsl(167, 48%, 56%);
+}
+#resetBtn:hover{
+    background-color: hsl(175, 35%, 27%);
+}
+
+
+
+
+
